@@ -24,10 +24,6 @@ Before using this notebook, ensure you have the following:
 git clone https://github.com/ahsun-tariq/projectboard-cloner.git
 cd projectboard-cloner
 ```
-### Set your GitHub username and token in the env.txt file
--  Replace the first line with your GitHub handle.
--  Replace the second line with your token.
--  Ensure that the token has permissions for repo, project, and admin:org
 
 ### Install Dependencies
 
@@ -36,6 +32,13 @@ The required libraries are specified in the `requirements.txt` file. Install the
 ```bash
 pip install -r requirements.txt
 ```
+
+### Set your GitHub username and token in the env.txt file
+-  Replace the first line with your GitHub handle.
+-  Replace the second line with your token.
+-  Ensure that the token has permissions for repo, project, and admin:org
+
+
 ### Launch the Notebook
 ```bash
 jupyter notebook
